@@ -1,0 +1,178 @@
+<mxfile host="Electron" modified="2023-11-20T10:23:35.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="XwZpboTh4rvo4znLLtFw" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="p564dUlnIFcZEKCv4rtF">
+    <mxGraphModel dx="2261" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="v4L3uSftxemj-3wPYkZc-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="150" width="370" height="453" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="290" width="250" height="304" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-7" value="bsqlsh" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="150" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-9" value="SQL加密处理&lt;br&gt;(SQL重写select_list)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1" y="315" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-10" value="密钥管理&lt;br&gt;(根密钥/列密钥)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="12" y="393" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-33" target="v4L3uSftxemj-3wPYkZc-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="110" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-12" value="SELECT * FROM TABLE" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="62" y="117" width="158" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;spacing=0;strokeWidth=1;endSize=6;entryX=-0.015;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="266" y="227" as="sourcePoint" />
+            <mxPoint x="416.0050000000001" y="227" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-14" value="SQL密文" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-15" value="加密表元数据管理(c)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="110" y="393" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-20" value="结果解密处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="467.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="235" y="580" as="sourcePoint" />
+            <mxPoint x="235" y="668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-22" value="数据/操作结果明文" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="106" y="620" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-23" value="可搜索加密算法模块(C)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="393" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-23" target="v4L3uSftxemj-3wPYkZc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="458" as="sourcePoint" />
+            <mxPoint x="70" y="408" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-23" target="v4L3uSftxemj-3wPYkZc-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="450" as="sourcePoint" />
+            <mxPoint x="40" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-26" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="450" as="sourcePoint" />
+            <mxPoint x="57" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-20" target="v4L3uSftxemj-3wPYkZc-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="570" as="sourcePoint" />
+            <mxPoint x="120" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-28" value="" style="endArrow=classicThin;html=1;rounded=0;fontSize=14;startArrow=none;startFill=0;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.892;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-15" target="v4L3uSftxemj-3wPYkZc-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="391" as="sourcePoint" />
+            <mxPoint x="100" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.9;exitY=-0.011;exitDx=0;exitDy=0;fontSize=14;endFill=0;startArrow=classicThin;startFill=1;exitPerimeter=0;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-20" target="v4L3uSftxemj-3wPYkZc-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="570" as="sourcePoint" />
+            <mxPoint x="189.5" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" target="v4L3uSftxemj-3wPYkZc-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="120" as="sourcePoint" />
+            <mxPoint x="160" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-33" value="SQL接收处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry y="175" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;exitX=-0.015;exitY=0.383;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="v4L3uSftxemj-3wPYkZc-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="415.0050000000001" y="228.98000000000002" as="sourcePoint" />
+            <mxPoint x="360" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-36" value="结果接收处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="200" y="517.5" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-37" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-20" target="v4L3uSftxemj-3wPYkZc-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="580" as="sourcePoint" />
+            <mxPoint x="130" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-40" value="数据/操作结果密文" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="491" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-41" value="加密子系统(c)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="285" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-42" value="数据库客户端" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-85" y="117" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-43" value="SQL解析处理&lt;br&gt;(词法和语法)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry y="237" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="230" as="sourcePoint" />
+            <mxPoint x="60" y="314" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-134" target="v4L3uSftxemj-3wPYkZc-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="205" as="sourcePoint" />
+            <mxPoint x="120" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-46" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="220" as="sourcePoint" />
+            <mxPoint x="130" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="235" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-64" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="v4L3uSftxemj-3wPYkZc-23" target="v4L3uSftxemj-3wPYkZc-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="475" as="sourcePoint" />
+            <mxPoint x="-40" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-65" value="通用加密算法模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="45" y="558" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-68" value="批量加密" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="521" width="95" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-69" value="密钥更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="558" width="95" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="v4L3uSftxemj-3wPYkZc-134" value="SQL发送处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="206" width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,49 @@
+<mxfile host="Electron" modified="2023-12-15T07:32:14.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="zvPk3kctqH6E1rqWhNcv" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="xREof4z3SYtIBQBJBqG4">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-1" value="" style="fillColor=#DEE8FF;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="250" y="50" width="680" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-2" value="Console" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="260" y="60" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-3" value="Schema Collection &amp;amp; Conversion" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="266" y="249" width="324" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-4" value="Data Workflow" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="266" y="339" width="645" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-6" value="Schema Migration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="595" y="249" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="660" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-8" value="Database Resource Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="660" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-9" value="Log Read" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="280" y="444" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-10" value="Synchronous Write" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="605" y="444" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-11" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="755" y="408" as="sourcePoint" />
+            <mxPoint x="755" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SJ7k4V2K8qlagsQR7GNw-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="409" as="sourcePoint" />
+            <mxPoint x="430" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

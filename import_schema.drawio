@@ -1,0 +1,76 @@
+<mxfile host="Electron" modified="2024-01-05T07:29:00.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="pJzN5qF_DImjGUfLf5I0" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="82782epjzVtEudtZO8ZG">
+    <mxGraphModel dx="1434" dy="2005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="73ESAUzGSFKM4wLg85LC-1" value="" style="fillColor=#DEE8FF;strokeColor=none" parent="1" vertex="1">
+          <mxGeometry x="130" y="-20" width="440" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aipgs4tHuMN8T6Fz6wal-1" target="Aipgs4tHuMN8T6Fz6wal-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-1" value="schema/tables/table.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aipgs4tHuMN8T6Fz6wal-2" target="Aipgs4tHuMN8T6Fz6wal-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-2" value="schema/partitions/partition.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="175" y="180" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-4" value="执行建表DDL语句：&lt;br&gt;1. 主键&lt;br&gt;2. 属性的默认值（触发器）" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="95" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aipgs4tHuMN8T6Fz6wal-5" target="Aipgs4tHuMN8T6Fz6wal-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-5" value="schema/views/view.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="195" y="280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aipgs4tHuMN8T6Fz6wal-7" target="Aipgs4tHuMN8T6Fz6wal-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-7" value="schema/functions/function.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="177.5" y="390" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aipgs4tHuMN8T6Fz6wal-9" target="Aipgs4tHuMN8T6Fz6wal-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-9" value="schema/procedures/procedure.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="158.75" y="500" width="252.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aipgs4tHuMN8T6Fz6wal-11" target="Aipgs4tHuMN8T6Fz6wal-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-11" value="schema/tables/INDEXES_table.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="158.75" y="610" width="252.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-13" value="UNIQUE INDEX" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="625" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-14" value="schema/tables/table.sql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#000000;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="710" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-16" value="FOREIGN KEY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="725" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-17" value="创建分区键" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="195" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-18" value="创建视图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="295" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-19" value="创建函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="411.25" y="400" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-20" value="创建存储过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="515" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aipgs4tHuMN8T6Fz6wal-21" value="import schema" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#000000;gradientColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-10" width="180" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

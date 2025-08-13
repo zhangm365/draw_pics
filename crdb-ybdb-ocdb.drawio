@@ -1,0 +1,184 @@
+<mxfile host="Electron" modified="2023-12-15T04:04:00.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="8LOetsU0oPPjbaS01Tq3" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="cEt3Nz3WwedlIwdMNucJ">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-17" value="" style="fillColor=#DEE8FF;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="243" y="70" width="970" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="254" width="270" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-2" target="vTA0ca2uMa9dXZxPH0jg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-2" value="SQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-4" target="vTA0ca2uMa9dXZxPH0jg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-4" value="Transactional KV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-6" target="vTA0ca2uMa9dXZxPH0jg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-6" value="Distribution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.008;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="199" as="sourcePoint" />
+            <mxPoint x="329.03999999999996" y="198.98000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-8" value="用户请求" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-9" value="原子性&lt;br style=&quot;font-size: 15px;&quot;&gt;隔离性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="282" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-11" target="vTA0ca2uMa9dXZxPH0jg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-11" value="Replication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-12" value="Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-13" value="范围分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="385" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-14" value="容错和高可用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="485" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-15" value="存储设备的KV存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="585" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-16" value="CockroachDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="354" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-19" target="vTA0ca2uMa9dXZxPH0jg-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-19" value="Transactional KV" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="583" y="269" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-21" target="vTA0ca2uMa9dXZxPH0jg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-21" value="Distribution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="583" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-22" value="原子性&lt;br style=&quot;font-size: 15px;&quot;&gt;隔离性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="282" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-23" value="Replication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="583" y="463" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-24" value="哈希分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="713" y="380" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-25" value="容错和高可用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="710" y="478" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;DocDB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="775" y="253" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-28" value="BrightDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="645" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-29" value="OceanBase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=19;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-50" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="870" y="254" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-52" value="Transaction Processing Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="891" y="278" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-55" value="原子性&lt;br style=&quot;font-size: 15px;&quot;&gt;隔离性" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="293" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-57" value="分区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="343" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-58" value="容错和高可用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="343" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-59" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;OBServer&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="252" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-62" target="vTA0ca2uMa9dXZxPH0jg-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="643" y="267" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-62" value="SQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="583" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-64" value="SQL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="940" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="vTA0ca2uMa9dXZxPH0jg-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="643" y="523" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-66" value="Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="583" y="563" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-67" value="存储设备的KV存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="713" y="578" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="vTA0ca2uMa9dXZxPH0jg-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-69" value="Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="940" y="563" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-70" value="存储设备的KV存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="577" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-72" value="Distribution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="891" y="373" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" target="vTA0ca2uMa9dXZxPH0jg-74" source="vTA0ca2uMa9dXZxPH0jg-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1041" y="350" />
+              <mxPoint x="1065" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-74" value="Replication" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="371" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="vTA0ca2uMa9dXZxPH0jg-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.33;exitY=1;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="vTA0ca2uMa9dXZxPH0jg-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="343" as="sourcePoint" />
+            <mxPoint x="924" y="374" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="957" y="350" />
+              <mxPoint x="924" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
