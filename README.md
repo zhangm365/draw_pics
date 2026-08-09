@@ -1,2 +1,4 @@
+
+
 # draw_pics
-draw pictures for my software dev.
+Draw pictures for my software development.
